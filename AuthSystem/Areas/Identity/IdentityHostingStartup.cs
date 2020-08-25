@@ -20,7 +20,12 @@ namespace AuthSystem.Areas.Identity
                     options.UseSqlServer(
                         context.Configuration.GetConnectionString("AuthSystemContextConnection")));
 
-                services.AddDefaultIdentity<AuthSystemUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                services.AddDefaultIdentity<AuthSystemUser>(options =>
+                {
+                    options.SignIn.RequireConfirmedAccount = false;
+                    options.Password.RequireLowercase = false;
+                    options.Password.RequireUppercase = false;
+                })
                     .AddEntityFrameworkStores<AuthSystemContext>();
             });
         }
