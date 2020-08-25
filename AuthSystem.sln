@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30404.54
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthSystem", "AuthSystem\AuthSystem.csproj", "{E933E964-D20C-4592-B453-CD7DBBC17F59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E933E964-D20C-4592-B453-CD7DBBC17F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E933E964-D20C-4592-B453-CD7DBBC17F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E933E964-D20C-4592-B453-CD7DBBC17F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E933E964-D20C-4592-B453-CD7DBBC17F59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AD993CD-2871-4A34-920C-D04E381AB765}
+	EndGlobalSection
+EndGlobal
